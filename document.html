@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body{
+background-color:#FFE4C4;
+
+}
+.container {
+  border: 2px solid #ccc;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 16px;
+  margin: 16px 0
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container span {
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+@media (max-width: 500px) {
+  .container {
+      text-align: center;
+  }
+  .container img {
+      margin: auto;
+      float: none;
+      display: block;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Documentation Team</h2>
+
+
+
+<div class="container">
+  <img src="img/Vaibhav.jpg" alt="Avatar" style="width:90px">
+  <p><span>Vaibhav Upadhayay</span>Mechanical Engineering</p>
+  <p>He is currently studying in KNIT,Sultanpur.</p>
+</div>
+
+<div class="container">
+  <img src="img/prabhat.jpg" alt="Avatar" style="width:90px">
+  <p><span>Prabhat Kumar Kushwaha</span>Information Technology</p>
+  <p>He is currently studying in KNIT,Sultanpur.</p>
+</div>
+
+
+
+</body>
+</html>
